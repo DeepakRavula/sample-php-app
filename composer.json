@@ -16,6 +16,12 @@
     "guzzlehttp/guzzle": "*",
     "guzzlehttp/psr7": "^2.2",
     "php-http/guzzle7-adapter": "*",
-    "monolog/monolog": "^3.3"
+    "monolog/monolog": "^2.0",
+    "php-http/message-factory": "^1.1"
+  },
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
   }
 }
